@@ -1,0 +1,39 @@
+## MCQ 1
+Question: What is the time complexity of the function that finds the maximum value in an array by iterating over the array once?
+A) O(n log n)
+B) O(n)
+C) O(log n)
+D) O(1)
+Correct Answer: B) O(n)
+
+## MCQ 2
+Question: What is the time complexity of the binary search algorithm in a sorted array?
+A) O(n)
+B) O(n log n)
+C) O(log n)
+D) O(n^2)
+Correct Answer: C) O(log n)
+
+## MCQ 3
+Question: What is the time complexity of the merge sort algorithm?
+A) O(n)
+B) O(n log n)
+C) O(log n)
+D) O(n^2)
+Correct Answer: B) O(n log n)
+
+## MCQ 4
+Question: What is the time complexity of the function that calculates the nth Fibonacci number using recursive calls?
+A) O(n)
+B) O(n log n)
+C) O(log n)
+D) O(2^n)
+Correct Answer: D) O(2^n)
+
+## MCQ 5
+Question: What is the time complexity of the function that finds all pairs of elements in an array that sum to a given target?
+A) O(n)
+B) O(n log n)
+C) O(log n)
+D) O(n^2)
+Correct Answer: D) O(n^2)

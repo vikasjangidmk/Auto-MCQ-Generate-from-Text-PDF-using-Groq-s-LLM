@@ -12,9 +12,14 @@ NUM_QUESTIONS = 5
 OUTPUT_FOLDER = "results"
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
+from dotenv import load_dotenv
+load_dotenv()
+
+api_key = os.getenv("GROQ_API_KEY")
+
 # LangChain setup
 llm = ChatGroq(
-    api_key="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",  # Replace with your actual API key
+    api_key=api_key, 
     model="llama-3.3-70b-versatile",
     temperature=0.0
 )
